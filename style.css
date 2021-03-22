@@ -1,10 +1,12 @@
 /* color darker #3b1851 lighter #a645ae */
 /*  font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;
+https://www.color-hex.com/color/3b1851 */
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: black;  
+    color: black;
+    background-color: #ebe7ed;  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,6 +57,17 @@ h1, h2, h3, h4, h5, h6 {
   } 
 
   /* message section*/
+  .video{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9D8BA8;
+    width:auto;
+    border-style: solid;
+
+  }
   iframe{
     display: block;
     margin: 10px auto;
@@ -120,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
   border-style: solid;
   border-width: 5px;
+  background-color: whitesmoke;
 
 }
 
