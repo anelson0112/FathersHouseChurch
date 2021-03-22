@@ -53,6 +53,63 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 30px;
     }
   } 
+
+  /* message section*/
+  .message {
+    padding: 10px 0;
+  }
   
+  .message h3 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #3b1851;
+  } 
+
+ /* vison section */
+
+ #vision {
+   padding: 10px;
+   background-color: #3b1851;
+   color: white;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .vision ul {
+  padding: 0;
+  font-size: 15px;
+}
+
+.vision ul li + li {
+  margin-top: 10px;
+}
+
+.vision ul li {
+  position: relative;
+  padding-left: 26px;
+}
+
+.vision .icon-boxes h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.vision .icon-boxes i {
+  font-size: 48px;
+  color: #3498db;
+}
+
+.vision .icon-boxes p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.vision .icon-boxes{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
  
 
