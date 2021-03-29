@@ -229,6 +229,84 @@ a:link {
   
 }
 
+/* worship section */
+.worship{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #9e7aba ;
+  color: #3b1851;
+  text-align: center;
+}
+
+.btn {
+  background-color: #3b1851;
+  
+}
+
+/* contact section */
+
+.contact{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: white ;
+  color: #715d7e;
+  text-align: center;
+}
+ 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; margin: 10px;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: #3B5998;
+}
+
+.fa-twitter {
+ 
+  color: #55ACEE;
+}
+
+.fa-youtube {
+  
+  color: #bb0000;
+}
+
+.fa-instagram {
+  
+  color: #125688;
+}
+.social{
+  text-align: center;
+}
+
+.card {
+  border: solid;
+  border-width: 2px;
+  border-color: #3b1851;
+  border-radius: inherit;
+
+}
+
+
 
 
 
