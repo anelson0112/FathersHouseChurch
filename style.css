@@ -5,7 +5,7 @@ https://www.color-hex.com/color/3b1851 */
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: black;
+    /* color: white; */
     background-color: #ebe7ed;  
 }
 
@@ -20,18 +20,35 @@ h1, h2, h3, h4, h5, h6 {
 
   
 
+/* nav */
+.navbar {
+  height: 100px;
+  color: white;
+  background-color: #303030;
+  border-width: 2px;
+  border-color: black;
+  
+}
+
+.nav-link{
+  color :white !important;
+  font-family: 'Montserrat', sans-serif;
+}
 
  
 /* Hero Section */
 #hero {
-  width: 100%;
-  height: 60vh;
-  background-image: url("placeholder.jpg")  ;
+  width: 1200px;
+  height: 650px;
+  background-image: url("resizeLogo.jpg")  ;
   background-size: cover;
   position: relative;
   margin-top: 70px;
   padding: 0;
   text-align: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero h1 {
