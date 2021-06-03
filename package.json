@@ -1,0 +1,24 @@
+{
+  "name": "fathershousechurch",
+  "version": "1.0.0",
+  "description": "Captial Campaign Site for The Father's House Church",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start" : "node index.js",
+    "kickoff" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anelson0112/FathersHouseChurch.git"
+  },
+  "author": "Alice Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anelson0112/FathersHouseChurch/issues"
+  },
+  "homepage": "https://github.com/anelson0112/FathersHouseChurch#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
