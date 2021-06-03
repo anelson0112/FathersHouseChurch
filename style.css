@@ -24,6 +24,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-right:  .5;
   }
 
+  a:link {
+  
+  
+    text-decoration: none !important;
+    color: #3b1851;
+    
+   
+  }
+  
+  a:hover {
+    color: #9D8BA8;
+  }
+
+ 
   
 
 /* nav */
@@ -273,12 +287,10 @@ h5 {
 
 }
 
-a:link {
-  
-  color: #3b1851;
-  text-decoration: none;
-  
-}
+
+
+
+
 
 /* worship section */
 .worship{
@@ -294,8 +306,17 @@ a:link {
 }
 
 .btn {
+  color: white;
   background-color: #3b1851;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
+}
+
+.btn:hover{
+  background-color: #9D8BA8;
 }
 
 /* contact section */
