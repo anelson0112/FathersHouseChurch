@@ -6,18 +6,20 @@ https://www.color-hex.com/color/3b1851 */
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    /* color: white; */
     background-color: #ebe7ed;  
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    /* font-weight: 300; */
     text-transform: uppercase;
     font-style: italic;
     
-    
   }
+
+  .embed-responsive{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  } 
 
   .padding {
     padding-left:   .5; 
@@ -25,20 +27,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   a:link {
-  
-  
     text-decoration: none !important;
     color: #3b1851;
-    
-   
   }
   
   a:hover {
     color: #9D8BA8;
   }
-
- 
-  
 
 /* nav */
 .navbar {
@@ -46,8 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   background-color: #303030;
   border-width: 2px;
-  border-color: black;
-  
+  border-color: black; 
 }
 
 .nav-link{
@@ -60,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   border-color: white;
 }
 
- 
 /* Hero Section */
 #hero {
   width: 1200px;
@@ -84,7 +77,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 56px;
     color: #fff;
   }
-  #hero h2 {
+
+#hero h2 {
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
     font-size: 24px;
@@ -124,31 +118,11 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin: 10px auto;
   }
-  .message {
-    padding: 10px 0;
-    margin-top: 10px;
-  }
-  
-  
-  
-  #logo {
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90%;
-  }
-
  
 .message{
   padding: 10px;
   width: 100%;
   margin-top: 100px;
-  /* margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto; */
-  /* border-style: solid; */
   border-width: 5px;
   background-color: whitesmoke;
 
@@ -159,17 +133,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
   color: whitesmoke;
 } 
+#logo{
+  margin: auto;
+}
 
- /* vision section */
+/* vision section */
 
  #vision {
    padding: 10px;
    background-color: #1D0C28;
    color: white;
    width: 100%;
-   /* margin-left: auto;
-   margin-right: auto; */
- }
+  }
 
  .vision ul {
   padding: 0;
@@ -184,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-left: 26px;
 }
+
 .vision h5{
   color: whitesmoke;
 }
@@ -204,28 +180,17 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-
- 
 /* facility section */
-/* img{
-  
-  margin-left: auto;
-  margin-right: auto;
-
-} */
 
 .facility{
   padding: 10px;
-  /* margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto; */
   width: 100%;
   background-color: white ;
   color: #715d7e;
   text-align: center;
 
 }
+
 .facility h3{
   text-align: center;
   font-weight: 600;
@@ -234,31 +199,28 @@ h1, h2, h3, h4, h5, h6 {
   color:#3b1851;
   ;
 }
+
 h5 {
   text-align: center;
-  /* font-weight: 500; */
   font-size: 20px;
   padding: 25px;
   margin-top: 25px;
   color: #3b1851;
 }
 
-
-
-
 .facility ul li{
   text-align: center;
   list-style: inside;
 }
+
+#building{
+  margin-bottom: 20px;
+}
+
 /* impact section */
 .impact{
   padding: 10px;
   width: 100%;
-  /* margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto; */
-  /* border-style: solid; */
   border-width: 5px;
   background-color: white;
 
@@ -295,10 +257,6 @@ h5 {
 /* worship section */
 .worship{
   padding: 10px;
-  /* margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto; */
   width: 100%;
   background-color: #9e7aba ;
   color: #3b1851;
@@ -323,10 +281,6 @@ h5 {
 
 .contact{
   padding: 10px;
-  /* margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto; */
   width: 100%;
   background-color: white ;
   color: #715d7e;
